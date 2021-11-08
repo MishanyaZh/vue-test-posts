@@ -4,7 +4,7 @@
     <p>
       {{ post.body }}
     </p>
-    <h2>Author: {{ user.name }}</h2>
+    <h2>Author:{{ user.name }}</h2>
     <router-link to="/posts">
       <button @click="delPosts()">Delete Post</button>
     </router-link>

@@ -6,8 +6,8 @@
       <p>{{ user.address.street + ', ' + user.address.suite }}</p>
       <p>{{ user.address.city }}</p>
       <footer>
-        <router-link :to="`/users/${user.id}`"
-          >more about {{ user.name }}...</router-link
+        <router-link :to="`/users/${user.id}`">
+          more about {{ user.name }}...</router-link
         >
       </footer>
     </article>
