@@ -36,6 +36,5 @@ article {
 }
 a {
   color: white;
-  text-decoration: none;
 }
 </style>

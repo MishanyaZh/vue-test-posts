@@ -44,7 +44,6 @@ export default {
         .get(`https://jsonplaceholder.typicode.com/posts?&_limit=${this.limit}`)
         .then(response => {
           this.posts = response.data;
-          console.log(this.posts);
         })
         .catch(error => {
           console.log(error);

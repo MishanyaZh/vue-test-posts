@@ -4,7 +4,7 @@
     <p>
       {{ post.body }}
     </p>
-    <h2>Autor: {{ user.name }}</h2>
+    <h2>Author: {{ user.name }}</h2>
     <router-link to="/posts">
       <button @click="delPosts()">Delete Post</button>
     </router-link>
@@ -38,7 +38,6 @@ export default {
       )
       .then(response => {
         this.user = response.data;
-        console.log(this.users);
       })
       .catch(error => {
         console.log(error);

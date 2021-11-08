@@ -2,16 +2,18 @@
 
 API REST https://jsonplaceholder.typicode.com
 
+<!-- -------------------------- -->
+
 install vue: npm install -g @vue/cli
 
-create project: vue create my-project
+<!-- -------------------------- -->
 
-# or
+create project: vue create my-project or vue ui
 
-vue ui
+<!-- -------------------------- -->
 
 deployment netlify https://cli.vuejs.org/ru/guide/deployment.html#github-pages
 
-npm run serve
-npm run build
-npm run deploy
+<!-- -------------------------- -->
+
+npm run serve npm run build npm run deploy
