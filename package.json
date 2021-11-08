@@ -2,12 +2,15 @@
   "name": "vue-test-posts",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/MishanyaZh/vue-test-posts",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "deploy": "netlify deploy -p",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "axios": "^0.24.0",
     "core-js": "^3.6.5",
     "register-service-worker": "^1.7.1",
     "vue": "^3.0.0",
