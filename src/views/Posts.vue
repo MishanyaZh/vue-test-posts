@@ -75,7 +75,7 @@ export default {
 <style lang="scss" scoped>
 .posts {
   min-height: 100vh;
-  background-image: url(https://pixabay.com/get/g82facff1226ee132f88b3249209cab25404405d51735d376a27f60bf6073a51db1b448f3175914ed667627b9110f53e4fb8d052c1aa12e30bd1f5e5d6254654d_1280.jpg);
+  background-image: url(../assets/wordpress-gdefff272b_1280.jpg);
   background-size: cover;
   background-position: center;
 }

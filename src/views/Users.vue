@@ -82,7 +82,7 @@ export default {
 }
 .user {
   min-height: 100vh;
-  background-image: url(https://pixabay.com/get/g9c6e73c35e4fdb1dc2655fa81927e069366908c910f95f8da37bd7329aa0240fc6335c80f9827545e1f40c667a13e77600660cb5f5a536740de162402329b292_1280.jpg);
+  background-image: url(../assets/matrix-gc163519fa_1280.jpg);
   background-size: cover;
   background-position: center;
 }
